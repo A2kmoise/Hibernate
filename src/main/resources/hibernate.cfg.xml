@@ -12,7 +12,7 @@
         </property>
 
         <property name="hibernate.connection.url">
-            jdbc:mysql://localhost:3306/patient?createDatabaseIfNotExist=true
+            jdbc:mysql://localhost:3306/student_db?createDatabaseIfNotExist=true
         </property>
 
         <property name="hibernate.connection.username">
@@ -28,7 +28,7 @@
         <property name="hibernate.hbm2ddl.auto">update</property>
 
         <!-- ENTITY -->
-        <mapping class="model.Patient"/>
+        <mapping class="model.Student"/>
 
     </session-factory>
 </hibernate-configuration>
